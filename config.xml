@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.shellcor.shit"
+        versionCode="1" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <!-- <icon src="images/logo.png" /> -->
+    
+    <name>Grooming App</name>
+
+    <description>
+        App to keep track of your pets grooming schedule
+    </description>
+
+    <author href="https://shellcor.net" email="shellcor@gmail.com">
+        Shelley Cornelsen
+    </author>
+
+    <plugin name="Capture" value="CDVCapture" />
+    <plugin name="Camera" value="CDVCamera" />
+
+</widget>
