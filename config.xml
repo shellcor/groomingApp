@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.shellcor.shit"
+        id        = "net.shellcor.www"
         versionCode="1" 
         version   = "1.0.0">
 
-    <!-- versionCode is optional and Android only -->
-        <icon src="icon.png" />
-        <icon src="icon72.png" gap:platform="ios" width="72" height="72" />
-        <icon src="icon114.png" gap:platform="ios" width="114" height="114" />
-
-        <gap:splash src="splash.png" gap:platform="ios" width="320" height="480" />
-    <!-- <icon src="images/logo.png" /> -->
+    <icon src="icon.png" width="57" height="57" />
     
     <name>Grooming App</name>
 
