@@ -4,6 +4,7 @@
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+<link rel="stylesheet" type="text/css" href="style.css">
 <!-- <link rel="stylesheet" href="jquery-mobile-theme-172859-0/themes/grooming.css">
  --><script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
@@ -31,9 +32,9 @@
 		</div>
 		<ul data-role="listview">
 			<li data-role="list-divider">Pets</li>
-			<li><a href="">Sophie</a></li>
-			<li><a href="">Spike</a></li>
-			<li><a href="">Skippy</a></li>
+			<li><a href="#sophie"><img src="sophie.jpg">Sophie</a></li>
+			<li><a href=""><img src="spikey.jpg">Spike</a></li>
+			<li><a href=""><img src="skippy.jpg">Skippy</a></li>
 		</ul>
 	</div>
 	<div data-role="footer" data-position="fixed">
@@ -142,12 +143,10 @@
 		</ul>
 		<body onLoad="onLoad()">
     <button onclick="capturePhoto();">Capture Photo</button> <br><br>
-    <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br><br>
     <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br><br>
     <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br><br>
     <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
     <img style="display:none;" id="largeImage" src="" />
-    <br><button onclick="captureImage();">Capture Image</button> <br>
 	</div>
 
 	<div data-role="footer" data-position="fixed">
