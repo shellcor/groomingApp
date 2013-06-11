@@ -5,7 +5,7 @@
         versionCode="1" 
         version   = "1.0.0">
 
-    <icon src="icon.png" width="57" height="57" />
+    <icon src="icons/icon.png" width="57" height="57" />
     
     <name>Grooming App</name>
 
